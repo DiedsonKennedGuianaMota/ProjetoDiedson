@@ -7,6 +7,21 @@
     <title>Diedson Kenned</title>
     <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="Estilo/style.css">
+    <script>
+        function clickar(){
+            alert("Tem certeza da resposta? Acho melhor ler de novo!");
+        }
+        function myFunction(t){
+            var btn = t;
+            btn.style.position = 'absolute'
+            btn.style.botton = GeraPosição(10,90);
+            btn.style.left = GeraPosição(10,90);
+            console.log(t)
+        }
+        function GeraPosição(min, max) {
+            return Math.random() * (max - min) + min + "%";
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -22,7 +37,7 @@
         <section class="sec">
             <p class="par">Então me diz ai, 🏳️‍🌈❓</p>
             <a href="pagina2.html"><button class="but">SIM</button></a>
-            <button class="but"><abbr title="Eu acho que não hein...">NÃO</abbr></button>
+            <button class="but" onclick="clickar()" onmouseover="myFunction(this)"><abbr title="Eu acho que não hein..." >NÃO</abbr></button>
         </section>
     </main>
     <footer>
