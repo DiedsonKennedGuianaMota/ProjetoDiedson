@@ -1,6 +1,10 @@
 @charset 'UTF-8';
 body{
     background: linear-gradient(to right, #D93231, #DE8C38, #E5DC39, #5C982C, #314FB0, #7B1684);
+    background-attachment: fixed;
+}
+main{
+    margin: auto;
 }
 h2{
     text-align: center;
@@ -22,7 +26,7 @@ article > p{
 }
 a.video{
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     color: whitesmoke;
     text-align: center;
 }
