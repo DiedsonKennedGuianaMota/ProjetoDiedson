@@ -24,11 +24,11 @@ article > p{
     text-align: justify;
     color: white;
 }
-a{
+a.video{
     text-align: center;
     text-decoration: none;
     color: whitesmoke;
-    margin: auto;
+    text-align: center;
 }
 section > p{
     font-family: 'Courier New', Courier, monospace;
