@@ -24,6 +24,11 @@ article > p{
     text-align: justify;
     color: white;
 }
+section > img{
+    text-align: center;
+    max-width: 500px;
+    min-width: 300px;
+}
 a.video{
     text-align: center;
     text-decoration: underline;
