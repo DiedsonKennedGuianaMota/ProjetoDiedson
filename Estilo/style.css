@@ -4,7 +4,7 @@ body{
     background-attachment: fixed;
 }
 main{
-    width: 50%;
+    max-width: 800px;
     margin: auto;
 }
 h2{
@@ -58,6 +58,7 @@ section > p{
     text-decoration: underline;
 }
 .but{
+    margin-top: 20px;
     background: linear-gradient(to right, #D93231, #DE8C38, #E5DC39, #5C982C, #314FB0, #7B1684);
     border-radius: 5px ;
     animation: backwards;
