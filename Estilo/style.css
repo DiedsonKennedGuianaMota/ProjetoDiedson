@@ -24,10 +24,11 @@ article > p{
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
     color: white;
+    margin: 0%;
 }
 section > img{
     text-align: center;
-    width: 100%;
+    width: 50%;
     margin: 20px;
 }
 a.video{
@@ -41,6 +42,7 @@ section > p{
     text-align: justify;
     color: white;
     margin: auto;
+    width: -10px;
 }
 #imagem{
     text-align: center;
