@@ -1,0 +1,34 @@
+@charset 'UTF-8';
+body{
+    background: linear-gradient(to right, #D93231, #DE8C38, #E5DC39, #5C982C, #314FB0, #7B1684);
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.233);
+}
+section > p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    color: white;
+}
+#imagem{
+    text-align: center;
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.288);
+}
+.sec{
+    text-align: center;
+}
+.par{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.but{
+    background: linear-gradient(to right, #D93231, #DE8C38, #E5DC39, #5C982C, #314FB0, #7B1684);
+    border-radius: 5px ;
+    animation: backwards;
+}
